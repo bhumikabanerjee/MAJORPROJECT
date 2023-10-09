@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: red;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+.logo{
+    font-size:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    color:white;
+}
+.nav{
+    position: relative;
+    left:-180px;
+}
+a{
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: beige;
+    text-decoration: underline;
+}
+.Search{
+    font-size: 25px;
+    justify-content: space-between;
+    color: rgb(255, 196, 196);
+}
+
+.x{
+    color: brown;
+}
+.Search i{
+    padding: 5px 20px;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding: 5px 15px;
+    background-color: whitesmoke;
+    
+}
+i:hover{
+    color:blue;
+}
+.pic i{
+    background-image: url(cafe bar.jpg);
+
+}
